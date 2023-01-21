@@ -1,5 +1,5 @@
-var hamburguer = document.querySelector(".hamburguer");
+var principal = document.querySelector(".principal");
 
-hamburguer.addEventListener("click",() =>
+principal.addEventListener("click",() =>
     document.querySelector(".container").classList.toggle("show-menu")
 )

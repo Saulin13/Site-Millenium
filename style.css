@@ -402,6 +402,7 @@ header{
     background: linear-gradient(to left, #B5AC49, #3CA55C); 
     font-family: var(--font-action);
     color: #eee;
+    cursor: pointer;
     border-radius: 0.5rem;
     border: none;
     box-shadow: 0 .1rem .8rem  rgba(0, 0, 0, .4);

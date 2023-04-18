@@ -276,13 +276,35 @@ header{
     background: #3CA55C; 
     background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  
     background: linear-gradient(to left, #B5AC49, #3CA55C); 
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
 }
+
+.a-btn{
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a-btn-card{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    border: none;
+    padding: 1rem ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .sessao-conhecimentos{
     background-color: #f5f5f5;
 }

@@ -4,7 +4,7 @@
   <img src="https://github.com/Saulin13/Site-Millenium/blob/main/Imagens/logo.png" alt="Software Millenium"  width="300">
 </p>
 
-O Software Millenium foi desenvolvido para auxiliar o gerenciamento de atividades rurais e agrícolas. Com o uso de tecnologia avançada, o software oferece soluções para o gerenciamento de insumos, clientes e funcionários, para atividades relacionadas ao setor, aumentando assim a produtividade e eficiência das operações.
+O Software Millenium foi desenvolvido para auxiliar o gerenciamento de atividades rurais e agrícolas. Com o uso de tecnologia avançada, o software auxilia o gerenciamento dos produtos agricolas e divulgação facilitando as informaçoes sobre a empresa, aumentando assim a produtividade e eficiência das operações.
 
 # Link do dominio:
 

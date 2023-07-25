@@ -349,6 +349,10 @@ header{
     grid-column:  6 / 12;
     grid-row: 2 / 6;
     width: 100%;
+    
+    @media (max-width:1300px) {
+        display: none;;
+    }
 }
 
 .projetos{

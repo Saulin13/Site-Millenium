@@ -1,0 +1,39 @@
+{
+  "name": "millenium-corretora-site",
+  "version": "1.0.0",
+  "description": "Site institucional da Millenium® Corretora e Representações - Especialistas em insumos agrícolas",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "agricultura",
+    "insumos",
+    "corretora",
+    "representações",
+    "site-institucional",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Saulo Pereira Vasconcelos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saulin13/Site-Millenium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saulin13/Site-Millenium/issues"
+  },
+  "homepage": "https://github.com/Saulin13/Site-Millenium#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

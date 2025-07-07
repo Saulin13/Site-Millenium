@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
     <title>Millenium® Corretora e Representações</title>
 </head>
 <body>
-    <div class="container">
+    <!-- Mobile Menu Button -->
+    <div class="principal" aria-label="Abrir menu" tabindex="0">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>Menu</span>
+    </div>
 
-        <div class="principal">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>Fechar</span>
+    <!-- Sidebar Menu -->
+    <aside class="sidebar">
+        <button class="close-sidebar" aria-label="Fechar menu">&times;</button>
+        <ul class="menu">
+            <li class="menu-item"><a href="index.html" class="menu-link active">Home</a></li>
+            <li class="menu-item"><a href="pages/produtos.html" class="menu-link">Produtos</a></li>
+            <li class="menu-item"><a href="pages/sobrenos.html" class="menu-link">Sobre Nós</a></li>
+            <li class="menu-item"><a href="pages/contato.html" class="menu-link">Contato</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Artigos</a></li>
+        </ul>
+        <div class="social-midia">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
         </div>
+    </aside>
 
-        <header>
-            <div class="img-wrapper">
-                <img src="Imagens/Imagem Soja.jpg" alt="">
-            </div>
-            <div class="banner">
-                <h1>Millenium®</h1>
-                <p>Corretora e Representações</p>
-                <button>Saiba mais</button>
-            </div>
-        </header>
-        
-        <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="produtos.html" class="menu-link">Produtos</a></li>
-                    <li class="menu-item"><a href="sobrenos.html" class="menu-link">Sobre Nós</a></li>
-                    <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Artigos</a></li>
-                </ul>
-            </nav>
-            <div class="social-midia">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/milleniumcorretora/"><i class="fab fa-instagram"></i></a>
-            </div>
-        </aside>
+    <!-- Hero Section -->
+    <header>
+        <div class="img-wrapper">
+            <img src="assets/images/Imagem Soja.jpg" alt="Plantação de soja da Millenium Corretora">
+        </div>
+        <div class="banner">
+            <h1>Millenium®</h1>
+            <p>Corretora e Representações</p>
+            <button>Saiba mais</button>
+        </div>
+    </header>
 
+    <!-- Main Content -->
+    <main>
+        <!-- Products Section -->
         <section class="sessao-conhecimentos" id="Conhecimento">
             <div class="sessao-header">
                 <h1>Produtos</h1>
@@ -106,54 +110,79 @@
                         <h3>Outros Produtos</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <button class="botao-SM"><a href="produtos.html" class="a-btn">Veja Mais</a></button>
+                        <button class="botao-SM"><a href="pages/produtos.html" class="a-btn">Veja Mais</a></button>
                     </div>
-                </div>
-                <div class="conhecimento-img-wrapper">
-                    <img src="Imagens/logo.png" alt="">
                 </div>
             </div>
         </section>
 
-        <div class="sessao-projetos" id="projetos">
+        <!-- Company Section -->
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
               <h1>Conheça Nossa Empresa</h1>
             </div>
             <div class="projetos">
               <div class="card">
                 <div class="card-img-wrapper">
-                  <img src="imagens/Imagem Soja2.jpg" alt="" />
+                  <img src="assets/images/Imagem Soja2.jpg" alt="Soja Millenium" />
                 </div>
                 <div class="card-info">
                   <h2>Sobre Nós</h2>
                   <h3>Institucional da nossa empresa</h3>
-                  <button class="btn"><a href="sobrenos.html" class="a-btn-card">Saiba Mais</a></button>
+                  <p>Conheça nossa história, valores e missão no mercado agrícola.</p>
+                  <button class="btn"><a href="pages/sobrenos.html" class="a-btn-card">Saiba Mais</a></button>
                 </div>
               </div>
               <div class="card">
                 <div class="card-img-wrapper">
-                  <img src="imagens/Imagem Milho.jpg" alt="" />
+                  <img src="assets/images/Imagem Milho.jpg" alt="Milho Millenium" />
                 </div>
                 <div class="card-info">
                   <h2>Contato</h2>
                   <h3>Entre em contato para fecharmos negócios</h3>
-                  <button class="btn"><a href="contato.html" class="a-btn-card">Saiba Mais</a></button>
+                  <p>Estamos prontos para atender você e sua empresa.</p>
+                  <button class="btn"><a href="pages/contato.html" class="a-btn-card">Saiba Mais</a></button>
                 </div>
               </div>
               <div class="card">
                 <div class="card-img-wrapper">
-                  <img src="imagens/Imagem Plantacao.jpg" alt="" />
+                  <img src="assets/images/Imagem Plantacao.jpg" alt="Plantação" />
                 </div>
                 <div class="card-info">
                   <h2>Artigos</h2>
                   <h3>Alguns artigos importantes</h3>
+                  <p>Fique por dentro das novidades do mercado agrícola.</p>
                   <button class="btn"><a href="#" class="a-btn-card">Saiba Mais</a></button>
                 </div>
               </div>
             </div>
-
         </section>
+    </main>
 
-    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="Logo Millenium" />
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="pages/produtos.html">Produtos</a>
+          <a href="pages/sobrenos.html">Sobre Nós</a>
+          <a href="pages/contato.html">Contato</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/milleniumcorretora/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="footer-copy">
+          <p>Millenium® Corretora e Representações<br>
+          Praça Padre José Pereira Coelho, 132 - Centro, Pará de Minas - MG, 35660-015<br>
+          (37) 3231-6336 | millenium@millenium.agr.br</p>
+          <p>© Todos os direitos reservados - Millenium® Corretora e Representações. 2025</p>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
